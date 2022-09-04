@@ -1,0 +1,59 @@
+body{
+    background-color: #A5F0C5;
+}
+.link{
+    position:relative;
+    margin-left: 36%;
+    margin-top: 7%;
+    width: 180px;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    padding: 15px 5px;
+    background-color: #faf9ed;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #014947;
+}
+a :hover{
+    cursor: pointer;
+}
+.active {
+    background-color: #00917C;
+    color: #faf9ed;
+}
+.enkrip{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 0.5em;
+    background-color: #00917C;
+    color: #faf9ed;
+}
+.atas, .bawah{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+textarea{
+    color: #035956;
+}
+.button{
+    background-color:#035956;
+    border: none;
+    color: #A5F0C5;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0.5em;
+}
+.button:hover{
+    background-color: #014947;
+    cursor: pointer;
+}
